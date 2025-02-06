@@ -12,11 +12,12 @@ autoinstall:
     timezone: "America/Sao_Paulo"   
     packages:
         - libreoffice
-        - gimp
         - git
+        - gnome-tweaks
         - wget
+        - flatpak
     snaps:
-        - name: spotify
+        - name: thunderbird
           channel: stable
           classic: false
     codecs:
