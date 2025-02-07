@@ -2,10 +2,10 @@
 autoinstall:
     version: 1
     identity:
-        realname: 'Dionatan Simioni'
+        realname: 'Daniel Bastos'
         hostname: ubuntu-desktop
-        username: diolinux
-        password: '$y$j9T$uhkxlm8nUQaNu.6rl4k2d.$DIldpYy96OHg8lFjfXfc671BZcGWkPOmaDONGAhGSg3'
+        username: daniel
+        password: '$y$j9T$5pAN1/ncUajtWgf7sXvvz0$QL5UPd8QwMI0KVtUHuZ8wmTj35jMLQ1DK7KR2GI/0R4'
     locale: pt_BR.utf8
     keyboard:
         layout: br
@@ -16,6 +16,11 @@ autoinstall:
         - gnome-tweaks
         - wget
         - flatpak
+        - whois
+        - python3-venv
+        - curl
+        - neovim
+        - gtop
     snaps:
         - name: thunderbird
           channel: stable
