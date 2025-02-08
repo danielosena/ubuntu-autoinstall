@@ -3,7 +3,7 @@ autoinstall:
     version: 1
     identity:
         realname: 'Daniel Bastos'
-        hostname: ubuntu-desktop
+        hostname: ubuntu-desktop-minimal
         username: daniel
         password: '$y$j9T$5pAN1/ncUajtWgf7sXvvz0$QL5UPd8QwMI0KVtUHuZ8wmTj35jMLQ1DK7KR2GI/0R4'
     locale: en_US.UTF-8
@@ -40,6 +40,7 @@ autoinstall:
         install: true
     late-commands:
         - curtin in-target -- flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+        - curtin in-target -- flatpak install -y --noninteractive flathub org.dupot.easyflatpak
     updates: all
     shutdown: reboot
 
