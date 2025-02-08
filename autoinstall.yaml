@@ -3,7 +3,7 @@ autoinstall:
     version: 1
     identity:
         realname: 'Daniel Bastos'
-        hostname: ubuntu-desktop-minimal
+        hostname: ubuntu-desktop
         username: daniel
         password: '$y$j9T$5pAN1/ncUajtWgf7sXvvz0$QL5UPd8QwMI0KVtUHuZ8wmTj35jMLQ1DK7KR2GI/0R4'
     locale: en_US.UTF-8
