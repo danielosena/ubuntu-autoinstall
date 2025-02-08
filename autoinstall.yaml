@@ -6,10 +6,10 @@ autoinstall:
         hostname: ubuntu-desktop
         username: daniel
         password: '$y$j9T$5pAN1/ncUajtWgf7sXvvz0$QL5UPd8QwMI0KVtUHuZ8wmTj35jMLQ1DK7KR2GI/0R4'
-    locale: pt_BR.utf8
+    locale: en_US.UTF-8
     keyboard:
         layout: br
-    timezone: "America/Sao_Paulo"   
+    timezone: "America/Bahia"   
     packages:
         - libreoffice
         - git
@@ -21,6 +21,15 @@ autoinstall:
         - curl
         - neovim
         - gtop
+        - ansible
+        - pandoc
+        # GNOME dev related tools
+        - libgirepository1.0-dev
+        - gcc
+        - libcairo2-dev
+        - pkg-config
+        - python3-dev
+        - gir1.2-gtk-4.0
     snaps:
         - name: thunderbird
           channel: stable
