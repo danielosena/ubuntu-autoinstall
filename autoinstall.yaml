@@ -38,6 +38,8 @@ autoinstall:
         install: true
     drivers:
         install: true
+    late-commands:
+        - curtin in-target -- flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
     updates: all
     shutdown: reboot
 
